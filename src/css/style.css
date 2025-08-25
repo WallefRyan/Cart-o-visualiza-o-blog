@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:  hsl(47, 88%, 63%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    width: 320px;
+    border-radius: 10px;
+    
+}
+
+.cabessalho{
+    text-align: center;
+}
+
+.cabessalho img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.navegacao{
+    margin: 8px;
+    margin-top: 15px;
+}
+
+.navegacao h5{
+    background-color: hsl(47, 88%, 63%);
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navegacao a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navegacao a:hover{
+    color:  hsl(47, 88%, 63%);
+    transform: scale(1.1);
+}
+
+.navegacao p{
+    color: hsl(0, 0%, 42%);
+    
+}
+
+footer{
+    display: flex;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer h3{
+    margin: 10px 0 0 13px;
+}
