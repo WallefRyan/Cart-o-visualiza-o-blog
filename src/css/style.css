@@ -8,54 +8,61 @@ body{
     min-height: 100vh; 
 
     font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
 }
 
 .container{
     background-color: white;
     padding: 20px;
-    width: 320px;
-    border-radius: 10px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 10px 8px 0px black;
     
 }
 
-.cabessalho{
-    text-align: center;
-}
 
 .cabessalho img{
     width: 100%;
     border-radius: 10px;
 }
 
-.navegacao{
-    margin: 8px;
+.section{
     margin-top: 15px;
 }
 
-.navegacao h5{
+.section h5{
+    font-weight: bold;
     background-color: hsl(47, 88%, 63%);
     display: inline;
-    padding: 5px;
+    padding: 8px;
     border-radius: 5px;
 }
 
-.navegacao a{
+.section p{
+    color: hsl(0, 0%, 3%);
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.section1 h3{
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin: 10px 0 5px 0;
 }
 
-.navegacao a:hover{
+.section1 h3:hover{
     color:  hsl(47, 88%, 63%);
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
-.navegacao p{
+.section1 p{
     color: hsl(0, 0%, 42%);
+    font-size: 0.9em;
+    font-weight: bold;
+    
+
     
 }
 
@@ -64,10 +71,11 @@ footer{
 }
 
 footer img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 footer h3{
     margin: 10px 0 0 13px;
+    font-size: 0.9em;
 }
